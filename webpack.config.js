@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/App.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'docs/js')
+    path: path.resolve(__dirname, 'website/js')
   },
   /*plugins: [
     new CopyPlugin([
