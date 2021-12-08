@@ -1,3 +1,7 @@
+require('@metamask/legacy-web3')
+
+const { web3 } = window
+
 const contract = require("../blockchain/build/contracts/Twibber.json")
 
 const contractAbi = contract.abi

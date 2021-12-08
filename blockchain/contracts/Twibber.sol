@@ -15,7 +15,6 @@ contract Twibber {
     //it is creating an event Message with text and user.
     function sendMessage (string memory text) public returns (bool) {
         //require() is throwing error, if the input is not true
-        //require(userExists(msg.sender));
         msgCounter[msg.sender]++;
         emit MessageCreated(msg.sender, text);
         return true;
